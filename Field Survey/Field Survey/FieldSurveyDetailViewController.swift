@@ -28,6 +28,7 @@ class FieldSurveyDetailViewController: UIViewController {
         
         fieldSurveyIconImage.image = fieldSurvey?.classification.image
         nameLabel.text = fieldSurvey?.title
+        descriptionLabel.text = fieldSurvey?.description
         
         if let date = fieldSurvey?.date {
             dateLabel.text = dateFormatter.string(from: date)
