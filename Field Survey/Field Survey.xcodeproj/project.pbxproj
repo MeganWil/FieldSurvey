@@ -16,6 +16,10 @@
 		D537E83C22E210270033F7C9 /* FieldSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D537E83B22E210270033F7C9 /* FieldSurveyViewController.swift */; };
 		D537E83E22E210530033F7C9 /* FieldSurveyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D537E83D22E210530033F7C9 /* FieldSurveyDetailViewController.swift */; };
 		D537E84322E2912B0033F7C9 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = D537E84222E2912B0033F7C9 /* field_observations.json */; };
+		D537E84622E291E10033F7C9 /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D537E84522E291E10033F7C9 /* Classification.swift */; };
+		D537E84822E2935D0033F7C9 /* FieldSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D537E84722E2935D0033F7C9 /* FieldSurvey.swift */; };
+		D537E84A22E294AA0033F7C9 /* FieldSurveyJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D537E84922E294AA0033F7C9 /* FieldSurveyJsonParser.swift */; };
+		D537E84E22E29E160033F7C9 /* FieldSurveyJsonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D537E84D22E29E160033F7C9 /* FieldSurveyJsonLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +54,11 @@
 		D537E82F22E19BB00033F7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D537E83B22E210270033F7C9 /* FieldSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyViewController.swift; sourceTree = "<group>"; };
 		D537E83D22E210530033F7C9 /* FieldSurveyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyDetailViewController.swift; sourceTree = "<group>"; };
-		D537E84222E2912B0033F7C9 /* field_observations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
+		D537E84222E2912B0033F7C9 /* field_observations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		D537E84522E291E10033F7C9 /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
+		D537E84722E2935D0033F7C9 /* FieldSurvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurvey.swift; sourceTree = "<group>"; };
+		D537E84922E294AA0033F7C9 /* FieldSurveyJsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyJsonParser.swift; sourceTree = "<group>"; };
+		D537E84D22E29E160033F7C9 /* FieldSurveyJsonLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyJsonLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +143,10 @@
 			isa = PBXGroup;
 			children = (
 				D537E84222E2912B0033F7C9 /* field_observations.json */,
+				D537E84522E291E10033F7C9 /* Classification.swift */,
+				D537E84722E2935D0033F7C9 /* FieldSurvey.swift */,
+				D537E84922E294AA0033F7C9 /* FieldSurveyJsonParser.swift */,
+				D537E84D22E29E160033F7C9 /* FieldSurveyJsonLoader.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -271,9 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D537E84822E2935D0033F7C9 /* FieldSurvey.swift in Sources */,
 				D537E80E22E19BAF0033F7C9 /* AppDelegate.swift in Sources */,
 				D537E83C22E210270033F7C9 /* FieldSurveyViewController.swift in Sources */,
 				D537E83E22E210530033F7C9 /* FieldSurveyDetailViewController.swift in Sources */,
+				D537E84622E291E10033F7C9 /* Classification.swift in Sources */,
+				D537E84A22E294AA0033F7C9 /* FieldSurveyJsonParser.swift in Sources */,
+				D537E84E22E29E160033F7C9 /* FieldSurveyJsonLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
