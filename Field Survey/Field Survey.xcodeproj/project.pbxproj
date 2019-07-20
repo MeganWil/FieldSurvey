@@ -15,6 +15,7 @@
 		D537E82E22E19BB00033F7C9 /* Field_SurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D537E82D22E19BB00033F7C9 /* Field_SurveyUITests.swift */; };
 		D537E83C22E210270033F7C9 /* FieldSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D537E83B22E210270033F7C9 /* FieldSurveyViewController.swift */; };
 		D537E83E22E210530033F7C9 /* FieldSurveyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D537E83D22E210530033F7C9 /* FieldSurveyDetailViewController.swift */; };
+		D537E84322E2912B0033F7C9 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = D537E84222E2912B0033F7C9 /* field_observations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D537E82F22E19BB00033F7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D537E83B22E210270033F7C9 /* FieldSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyViewController.swift; sourceTree = "<group>"; };
 		D537E83D22E210530033F7C9 /* FieldSurveyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyDetailViewController.swift; sourceTree = "<group>"; };
+		D537E84222E2912B0033F7C9 /* field_observations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		D537E80C22E19BAF0033F7C9 /* Field Survey */ = {
 			isa = PBXGroup;
 			children = (
+				D537E83F22E28DDD0033F7C9 /* Model */,
 				D537E80D22E19BAF0033F7C9 /* AppDelegate.swift */,
 				D537E81122E19BAF0033F7C9 /* Main.storyboard */,
 				D537E81422E19BB00033F7C9 /* Assets.xcassets */,
@@ -126,6 +129,14 @@
 				D537E82F22E19BB00033F7C9 /* Info.plist */,
 			);
 			path = "Field SurveyUITests";
+			sourceTree = "<group>";
+		};
+		D537E83F22E28DDD0033F7C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D537E84222E2912B0033F7C9 /* field_observations.json */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D537E81822E19BB00033F7C9 /* LaunchScreen.storyboard in Resources */,
+				D537E84322E2912B0033F7C9 /* field_observations.json in Resources */,
 				D537E81522E19BB00033F7C9 /* Assets.xcassets in Resources */,
 				D537E81322E19BAF0033F7C9 /* Main.storyboard in Resources */,
 			);

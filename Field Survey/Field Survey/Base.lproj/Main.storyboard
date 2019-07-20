@@ -121,6 +121,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2Y5-2B-tdQ"/>
                     </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="z0P-me-Hgi" id="JPf-se-wbR"/>
+                        <outlet property="descriptionLabel" destination="DrA-BC-Hrm" id="6h5-Hz-jl8"/>
+                        <outlet property="fieldSurveyIconImage" destination="9U3-Nh-rFI" id="j0J-DA-h2R"/>
+                        <outlet property="nameLabel" destination="xS9-RS-KeM" id="pkX-6W-RMw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qVp-jX-vyu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
