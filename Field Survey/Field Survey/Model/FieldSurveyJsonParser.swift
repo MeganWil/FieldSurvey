@@ -13,7 +13,7 @@ class FieldSurveyJsonParser{
     
     class func parse(_ data: Data) -> [FieldSurvey] {
         var fieldSurveys = [FieldSurvey]()
-        dateFormatter.dateFormat = "YYYY-MM-dd HH:mm"
+        dateFormatter.dateFormat = "YYYY-MM-DDTHH:MM:SSZ"
         
         if let json = try? JSONSerialization.jsonObject(with: data, options: []),
             let root = json as? [String: Any],
